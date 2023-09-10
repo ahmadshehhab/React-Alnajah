@@ -1,0 +1,20 @@
+.menu-appbar{
+    background-color: black!important;
+}
+
+.navLinks{
+    list-style-type: none!important;
+    color: white!important;
+}
+
+.navbar{
+    position: fixed!important;
+    z-index: 10000;
+    color: white!important;
+}
+.alnajah{
+    color: white!important;
+}
+.school{
+    color: white!important;
+}

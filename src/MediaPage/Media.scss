@@ -1,0 +1,101 @@
+.All1{
+    display: flex!important;
+    justify-content: space-between!important;
+    align-items:stretch;
+    flex-wrap: wrap!important;
+    margin-top: 15vh!important;
+    .sections{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        background-color: white!important;
+        background-size:auto 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        margin-bottom: 3%;
+        height: 40vh;
+        justify-content: space-around;
+        .a{
+            width: 100%;
+            height: 100%!important;
+            background-color: rgba(253, 253, 253, 0.308);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .con{
+            display: flex;
+            width: 80%;
+            Button{
+                background-color: green;
+                border: none;
+                border-radius: 0px 5px 5px 0px;
+                padding: 10px;
+                font-weight: bold;
+                color: white;
+            }
+            .input{
+                background-color: black;
+                border-radius: 5px 0px 0px 5px;
+                color: white;
+                outline: none!important;
+                text-decoration: none;
+                border: 1px solid transparent;
+                padding: 15px;
+                width: 90%;
+                
+            }
+            .input::placeholder{
+                color:white;
+            }
+            .input:focus{
+                outline: none!important;
+                outline-style: none!important;
+                outline-color: black!important;
+            }
+        }
+        .title1{
+            color: black;
+            width: 80%;
+            font-size: 200%;
+            margin-bottom: 10px;
+        }
+        .Card{
+            width: 80%;
+            margin: 10px;
+            // background-color: transparent;
+            color: white!important;
+            background-color: rgb(37, 37, 37)!important;
+        }
+    .cardContent1:hover{
+            background-color: #DEF2F1!important;
+            color: black;
+    }
+    .cardContent1{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        color: white;
+        
+    }
+}
+}
+ 
+@media all and (max-width:800px){
+    .sections{
+      width: 100%!important;
+
+      .title1{
+       
+        font-size: 150%!important;
+    }
+    }
+ 
+    }
+    

@@ -1,0 +1,57 @@
+.collegesa{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .collegesa > *{
+    width: 40%;
+    margin-right: 1%;
+    min-height: 100%;
+    
+  
+  
+    
+  }
+  .Card3{
+    margin-top: 15vh;
+  }
+  .cc{
+  
+    position: relative!important;
+    height: 30vh;
+    
+  }
+  .btn{
+    color: black!important;
+    position: absolute!important;
+    left: 0!important;
+    top: 0 !important;
+    right: 0!important;
+    bottom: 0!important;
+    font-size: 4vh!important;
+    width: 100%!important;
+  }
+ 
+  @media all and (max-width:500px){
+  .Card3{
+    width: 100%;
+    margin-top: 5vh;
+  }
+  .Card3:first-of-type{
+    
+    margin-top: 35%;
+  }
+  .collegesa{
+    justify-content: space-around;
+  }
+  .Alla{
+   
+    padding-bottom: 3%;
+    border-radius: 0px;
+    margin-bottom: 0vh;
+  }
+
+  
+  }
+  
